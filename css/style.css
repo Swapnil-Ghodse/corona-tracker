@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Mono', monospace;
+}
+
+.chart-container{
+    height:50px;
+    width: 1050px;
+    margin: 10px auto;
+}
+
+#mychart{
+    border-radius: 30px;
+    padding: 10px;
+    border: 0px solid black;
+    box-shadow: 5px 5px 10px white;
+    box-shadow: -30px -5px 30px #ffffff10, 1px 1px 30px #00000066;
+    margin-bottom: 100px;
+}
+
+
+#mypie{
+    border-radius: 30px;
+    padding: 10px;
+    border: 0px solid black;
+    box-shadow: 5px 5px 10px white;
+    box-shadow: -30px -5px 30px #ffffff10, 1px 1px 30px #00000066;
+    margin-top: 100px;
+    
+}
+
+/*=================================================*/
+.headline{
+    justify-content: space-around;
+    text-align: center;
+}
+/*=================================================*/
+.nav-class{
+    background-color:#99FFCC;
+}
+
+.world-head{
+    margin : 50px;
+}
+
+.foot{
+    position: relative;
+    bottom: 0%;
+}
+
+.foot-info ul, .foot-info a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin-top: 50px;
+    height: 1600px;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+    align-items: center;
+}
+.adress, .foot-info{
+    padding: 100px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.adress i{
+    font-size: 20px;
+}
+
+
+
+
+.logo{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-custom a{
+    color: black;
+}
+
+.nav-links{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    
+}
+
+.nav-links a{
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in 0s;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-links a:hover{
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    color: white;
+}
+
+
+header{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headline h1{
+    font-weight: 400;
+}
